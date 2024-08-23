@@ -1,0 +1,97 @@
+/* Alapértelmezett beállítások */
+* {
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+/* Háttér és container beállítása */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #0093E9;
+background-image: linear-gradient(119deg, #0093E9 0%, #80D0C7 33%, #b4e3d0 66%, #5ed2da 100%);
+
+}
+
+/* Gomb container beállítása */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Gombok közötti távolság */
+    margin-top: 20px;
+     
+}
+/* Gomb CSS */
+.btn-grad {
+    background-image: linear-gradient( 135deg, #63bdea 10%, #0392ff 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* H1 stílusok */
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+
+h1 > span {
+    position: absolute;
+    rotate: 4deg;
+    font-size: 2rem;
+    font-weight: 400;
+    top: -40px;
+    margin-left: 30px;
+}
+
+/* P stílus */
+p {
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+/* Kép stílus */
+img {
+    max-width: 500px;
+    max-height: 500px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    display: none;
+    margin-top: 20px;
+}
