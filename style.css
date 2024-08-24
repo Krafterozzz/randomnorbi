@@ -95,11 +95,3 @@ img {
     display: none;
     margin-top: 20px;
 }
-.small-text {
-    font-size: 7.5px; /* Kisebb betűméret */
-    position: absolute; /* Fix helyzetben, a szülő elemhez képest pozícionálva */
-    top: -40px; /* Függőlegesen felfelé eltolás */
-    left: 740px; /* Jobbra eltolás Zsombi szöveghez képest */
-    rotate: 6deg;
-    color: rgba(255, 255, 255, 0.569); /* Opcionális szín módosítás */
-}
