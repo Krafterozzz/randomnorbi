@@ -95,7 +95,6 @@ img {
     display: none;
     margin-top: 20px;
 }
-
 .small-text {
     font-size: 10px; /* Kisebb betűméret */
     position: absolute; /* Fix helyzetben, a szülő elemhez képest pozícionálva */
